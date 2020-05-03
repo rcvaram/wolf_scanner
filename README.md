@@ -3,6 +3,7 @@ Switch the branch to dev
 Install the require packages using pip
 
 pip install requests
+
 pip install beautifulsoup4
 
 run generic_scanner python file to discover XSS vulnarabilites of website which is given as target
