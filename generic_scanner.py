@@ -1,15 +1,18 @@
+import optparse
+
 import scanner
-import requests
-target_url = "https://rcvaram.pythonanywhere.com/"
-login_url = "https://rcvaram.pythonanywhere.com/login"
-data = {
-  'csrf_token': 'IjM5OGEyMDY5YjgyOWNhNTIxYWYwYzAyYWI0ZWI4MTUxZTQzZDMwY2Qi.Xq59tg.lCdZ1KlDaPbJ2tBplX9stJdPrcQ',
-  'email': 'admin@gmail.com', 'password': 'admin', 'remember': 'y',
-  'submit': 'Log In'
-}
-res =requests.post(login_url, data =data)
-# print(res.content.decode())
-links_to_ignore = []
-vuln_scanner = scanner.Scanner(target_url, links_to_ignore)
-vuln_scanner.session.post(login_url, data)
-vuln_scanner.run()
+
+
+def get_arguments():
+  parser = optparse.OptionParser()
+  parser.add_option("-t", "--target", dest="target",
+                    help="target URL that you need to check vulnarabilities")
+  args_options, arguments = parser.parse_args()
+  return args_options
+
+
+options = get_arguments()
+if options.target is not None:
+  links_to_ignore = []
+  vuln_scanner = scanner.Scanner(str(options.target), links_to_ignore)
+  vuln_scanner.run()

@@ -34,7 +34,6 @@ class Scanner:
         if self.target_url in link and link not in self.target_links and link not in self.links_to_ignore:
           self.target_links.append(link)
           if len(self.target_links) < 10:
-            print(link)
             self.crawl(link)
     except Exception as e:
       print(e)
@@ -75,13 +74,15 @@ class Scanner:
 
   def run(self):
     self.crawl()
+    print("Discovered links : {}".format(self.target_links))
     for target_link in self.target_links:
       forms = self.extract_forms(target_link)
       for form in forms:
         print("form testing : --> {}".format(target_link))
         if self.test_xss_in_form(form, target_link):
-          print("Found vulanerable in  form --> {}".format(target_link))
+          print("XSS Vulnerable in  link {} with this form --> {}".format(
+            target_link, form))
       if "=" in target_link:
         print("testing link --> {}".format(target_link))
         if self.test_xss_in_url(target_link):
-          print("Found vulenrable in URL parameters --> {}".format(target_link))
+          print("XSS Vulnerable in  link --> {}".format(target_link))
