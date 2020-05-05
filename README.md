@@ -1,4 +1,5 @@
-# The Website Scanner --> Find Vulnerabilities in websites
+# The WOLF Scanner --> To Find Vulnerabilities in websites
+
 
 <img src="https://github.com/rcvaram/website_scanner/blob/master/agence-olloweb-d9ILr-dbEdg-unsplash-scaled.jpg" height="64"/>
 
@@ -23,7 +24,7 @@ $ python generic_scanner.py -t  target_web_address
 ```
 
 When you give the target web address as t argument, this script scan all the pages of the website and listout the vulnerabilites that found.
-Initally, I've implemented to find the XSS vulnerability only. So This script will list out the places where the XSS vulnerability is exist 
+Initally, I've implemented to find the **XSS vulnerability** only. So This script will list out the places where the XSS vulnerability is exist 
  
 Example  -->  Searchbox of the particular website.
  
