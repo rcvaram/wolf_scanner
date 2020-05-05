@@ -1,4 +1,4 @@
-# website_scanner
+# The Website Scanner --> Find Vulnerabilities in websites
 
 <img src="https://github.com/rcvaram/website_scanner/blob/master/agence-olloweb-d9ILr-dbEdg-unsplash-scaled.jpg" height="64"/>
 
