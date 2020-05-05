@@ -36,16 +36,19 @@ Thanks for taking the time to contribute!
 
 The following is a set of guidelines for contributing to website scanner. These are just guidelines, not rules, so use your best judgement and feel free to propose changes to this document in a pull request.
 
-1 --> Create a new issue
 
-2 --> Fork the repo
+**First**: if you're unsure or afraid of anything, just ask or submit the issue or pull request anyways. You won't be yelled at for giving your best effort. The worst that can happen is that you'll be politely asked to change something. We appreciate any sort of contributions, and don't want a wall of rules to get in the way of that.
 
-3 --> Create a new branch on your forked repo
+However, for those individuals who want a bit more guidance on the best way to contribute to the project, By addressing all the points we're looking for, it raises the chances we can quickly merge or address your contributions.
 
-4 --> Make changes and commit your repo
+## Filing issues
 
-5 --> Send a PR to this Repo
+If you have a question about the project or have a problem using it, please [file an
+issue](https://github.com/rcvaram/website_scanner/issues/new).
 
 
-
+1. Submit an issue describing your proposed change to the repo in question.
+1. The repo owners will respond to your issue promptly.
+1. Clone the repo, develop, and test your changes.
+1. Submit a pull request.
 
