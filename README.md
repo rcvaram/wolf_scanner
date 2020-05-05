@@ -1,6 +1,6 @@
 # website_scanner
 
-<img src="https://d2hhs94aauusoe.cloudfront.net/wp-content/uploads/2020/03/agence-olloweb-d9ILr-dbEdg-unsplash-scaled.jpg" height="100px"/>
+<img src="https://github.com/rcvaram/website_scanner/blob/master/agence-olloweb-d9ILr-dbEdg-unsplash-scaled.jpg" height="64"/>
 
 [![Build Status](https://travis-ci.org/zold-io/zold.svg?branch=master)](https://travis-ci.org/zold-io/zold)
 Switch the branch to dev
