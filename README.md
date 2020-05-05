@@ -6,7 +6,9 @@
 [![Build Status](https://travis-ci.org/zold-io/zold.svg?branch=master)](https://travis-ci.org/zold-io/zold)
 
 
-First, you install following python packages using pip:
+
+
+1. *You install following python packages using **pip**:*
 
 ```
 $ pip install requests
@@ -16,12 +18,27 @@ $ pip install requests
 $ pip install beautifulsoup4
 
 ```
-Then, you run it and follow the instructions:
+
+
+
+
+2. *Clone the **wolf_scanner** github reposistory*
+```
+$ git clone https://github.com/rcvaram/wolf_scanner.git
+```
+
+
+
+3. *Then, you run **wolf_scanner.py** and follow the instructions:*
 
 ```
-$ python generic_scanner.py -t  target_web_address
+$ python wolf_scanner.py -t  target_web_address
 
 ```
+
+
+
+
 
 When you give the target web address as t argument, this script scan all the pages of the website and listout the vulnerabilites that found.
 Initally, I've implemented to find the **XSS vulnerability** only. So This script will list out the places where the XSS vulnerability is exist 
@@ -30,6 +47,10 @@ Example  -->  Searchbox of the particular website.
  
 Go to this video to watch how it works.....
 https://www.youtube.com/watch?v=HqHi_Q3FwUw
+
+
+
+
 
 # Contributing Guidelines
 
