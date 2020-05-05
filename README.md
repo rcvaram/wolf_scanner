@@ -37,10 +37,15 @@ Thanks for taking the time to contribute!
 The following is a set of guidelines for contributing to website scanner. These are just guidelines, not rules, so use your best judgement and feel free to propose changes to this document in a pull request.
 
 1 --> Create a new issue
+
 2 --> Fork the repo
+
 3 --> Create a new branch on your forked repo
+
 4 --> Make changes and commit your repo
+
 5 --> Send a PR to this Repo
+
 
 
 
