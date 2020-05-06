@@ -3,8 +3,6 @@
 
 <img src="https://github.com/rcvaram/website_scanner/blob/master/agence-olloweb-d9ILr-dbEdg-unsplash-scaled.jpg" height="64"/>
 
-[![Build Status](https://travis-ci.org/zold-io/zold.svg?branch=master)](https://travis-ci.org/zold-io/zold)
-
 
 
 
@@ -16,13 +14,13 @@ $ pip install requests
 
 ```
 $ pip install beautifulsoup4
-
 ```
 
 
 
 
 2. *Clone the **wolf_scanner** github reposistory*
+
 ```
 $ git clone https://github.com/rcvaram/wolf_scanner.git
 ```
@@ -33,7 +31,6 @@ $ git clone https://github.com/rcvaram/wolf_scanner.git
 
 ```
 $ python wolf_scanner.py -t  target_web_address
-
 ```
 
 
